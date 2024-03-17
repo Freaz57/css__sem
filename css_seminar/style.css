@@ -1,0 +1,96 @@
+.nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.nav__link {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: cornflowerblue;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.product__inner {
+  display: grid;
+  grid-template-columns: repeat(3, 220px);
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+  gap: 20px;
+}
+
+.product__card {
+  background-color: #ffffff;
+}
+
+.product__card--link {
+  text-decoration: none;
+}
+
+.product__card--title {
+  font-weight: 700;
+  color: #242424;
+}
+
+.product__card--image {
+  width: 200px;
+  height: 200px;
+}
+
+.product__card--about {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #1b150e;
+  text-transform: initial;
+}
+
+.wrp {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.map-box {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  z-index: 100;
+  width: 250px;
+  box-shadow: -1px -1px 24px 0px rgba(50, 50, 50, 0.5);
+}
+
+.title__main {
+  color: #222222;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.title__home {
+  color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
+}
+
+.text__main {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+}
